@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+*.bak
+.DS_Store
+
+# data lives on Zenodo, not here
+*.bam
+*.bai
+*.vcf.gz
+*.fasta
+*.fa.gz

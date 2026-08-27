@@ -1,0 +1,3 @@
+mutations_samples	mutations_rows	mutations_nonsyn	expression_samples	expression_genes	cna_samples	clinical_patients	usable_line12	usable_all	cohort
+1009	126252	82897	1082	20518	1070	1084	1007	994	brca
+409	53204	35632	300	20518	572	585	205	201	ov

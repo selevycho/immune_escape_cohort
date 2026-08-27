@@ -1,0 +1,41 @@
+sample	cohort	target	loci_attempted	loci_produced	any_result	failures
+B001	brca	HLA-B	2	0	False	HLA-B: no locus produced a table; HLA-C: no indels for the edit-distance step
+B002	brca	HLA-A	2	1	True	HLA-B: no positions distinguishing the alleles
+B003	brca	HLA-A	3	1	True	HLA-A: no locus produced a table; HLA-C: no positions distinguishing the alleles
+B004	brca	HLA-A	3	0	False	HLA-A: no indels for the edit-distance step; HLA-B: no indels for the edit-distance step; HLA-C: no indels for the edit-distance step
+B005	brca	HLA-A	2	1	True	HLA-B: no positions distinguishing the alleles
+B006	brca	HLA-A	3	1	True	HLA-B: no positions distinguishing the alleles; HLA-C: no indels for the edit-distance step
+B007	brca	HLA-A	3	0	False	HLA-A: no locus produced a table; HLA-B: no positions distinguishing the alleles; HLA-C: no indels for the edit-distance step
+B008	brca	HLA-A	2	1	True	HLA-B: no positions distinguishing the alleles
+B009	brca	HLA-B	2	0	False	HLA-B: no indels for the edit-distance step; HLA-C: no indels for the edit-distance step
+B010	brca	HLA-C	1	1	True	
+B011	brca	HLA-A	3	0	False	HLA-A: no indels for the edit-distance step; HLA-B: no indels for the edit-distance step; HLA-C: no indels for the edit-distance step
+B012	brca	HLA-A	3	1	True	HLA-B: no indels for the edit-distance step; HLA-C: no indels for the edit-distance step
+B013	brca	HLA-A	2	1	True	HLA-B: no positions distinguishing the alleles
+B014	brca	HLA-A	3	1	True	HLA-B: no positions distinguishing the alleles; HLA-C: no positions distinguishing the alleles
+B015	brca	HLA-A	3	0	False	HLA-A: no indels for the edit-distance step; HLA-B: no positions distinguishing the alleles; HLA-C: no positions distinguishing the alleles
+B016	brca	HLA-A	2	0	False	HLA-A: no indels for the edit-distance step; HLA-B: no indels for the edit-distance step
+B017	brca	HLA-A	3	0	False	HLA-A: no positions distinguishing the alleles; HLA-B: no indels for the edit-distance step; HLA-C: no indels for the edit-distance step
+B018	brca	HLA-C	1	1	True	
+B019	brca	HLA-A	3	2	True	HLA-A: no locus produced a table
+B020	brca	HLA-B	2	1	True	HLA-C: no indels for the edit-distance step
+O001	ov	HLA-B	1	1	True	
+O002	ov	HLA-B	2	1	True	HLA-C: no positions distinguishing the alleles
+O003	ov	HLA-A	2	1	True	HLA-B: no positions distinguishing the alleles
+O004	ov	HLA-A	3	1	True	HLA-B: no positions distinguishing the alleles; HLA-C: no indels for the edit-distance step
+O005	ov	HLA-A	3	2	True	HLA-C: no positions distinguishing the alleles
+O006	ov	HLA-B	1	1	True	
+O007	ov	HLA-B	2	0	False	HLA-B: no indels for the edit-distance step; HLA-C: no positions distinguishing the alleles
+O008	ov	HLA-B	2	0	False	HLA-B: no indels for the edit-distance step; HLA-C: no positions distinguishing the alleles
+O009	ov	HLA-B	2	0	False	HLA-B: no indels for the edit-distance step; HLA-C: no positions distinguishing the alleles
+O010	ov	HLA-A	3	1	True	HLA-B: no positions distinguishing the alleles; HLA-C: no indels for the edit-distance step
+O011	ov	HLA-A	2	1	True	HLA-B: no positions distinguishing the alleles
+O012	ov	HLA-A	3	1	True	HLA-B: no indels for the edit-distance step; HLA-C: no indels for the edit-distance step
+O013	ov	HLA-A	3	0	False	HLA-A: no locus produced a table; HLA-B: no locus produced a table; HLA-C: no indels for the edit-distance step
+O014	ov	HLA-A	2	0	False	HLA-A: no indels for the edit-distance step; HLA-B: no positions distinguishing the alleles
+O015	ov	HLA-A	3	0	False	HLA-A: no locus produced a table; HLA-B: no indels for the edit-distance step; HLA-C: no indels for the edit-distance step
+O016	ov	HLA-A	3	0	False	HLA-A: no locus produced a table; HLA-B: no indels for the edit-distance step; HLA-C: no locus produced a table
+O017	ov	HLA-A	3	0	False	HLA-A: no indels for the edit-distance step; HLA-B: no indels for the edit-distance step; HLA-C: no indels for the edit-distance step
+O018	ov	HLA-B	2	2	True	
+O019	ov	HLA-A	2	0	False	HLA-A: no positions distinguishing the alleles; HLA-B: no error recorded
+O020	ov	HLA-A	2	1	True	HLA-A: no locus produced a table
