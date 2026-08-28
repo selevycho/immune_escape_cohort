@@ -24,9 +24,18 @@ own data — see
 
 ## The data
 
-The forty pairs are published at **[DOI to be inserted]**: eighty BAMs
-with indexes, a truth table listing all 1 611 placed mutations, and the
-manifest pairing each backbone with its donor. 26 GB.
+The forty pairs are published at
+**[10.5281/zenodo.22135219](https://doi.org/10.5281/zenodo.22135219)**:
+eighty BAMs, a truth table listing all 1 611 placed mutations with their
+coordinates and allele fractions, and the manifest pairing each backbone
+with its donor. 26 GB.
+
+Indexes are not included — Zenodo caps a record at a hundred files, and
+eighty of them would have gone on something that rebuilds in seconds:
+
+````bash
+for f in *.bam; do samtools index "$f"; done
+```
 
 ---
 
